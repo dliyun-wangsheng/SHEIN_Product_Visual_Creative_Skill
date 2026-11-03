@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shein-product-visual-creative",
+  "version": "1.0.0",
+  "description": "面向 SHEIN 商品图片制作的个人创作工作流：基于产品实拍、真实使用参考和氛围参考规划套图，调用当前对话可用的图像能力逐张制作并质检。",
+  "keywords": ["shein", "product-photography", "ecommerce", "visual-creative"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SHEIN 商品视觉创作",
+        "shortDescription": "商品套图规划、创作与逐张质检",
+        "longDescription": "根据你上传的商品实拍和规格，建立产品事实卡，研究真实使用方式与场景氛围，规划商品套图，并使用当前对话可用的图像工具逐张生成、修改和检查。支持继续下一张、单图修改及现有图片质检。由个人工作流整理，非 SHEIN 官方插件；不连接商家后台，不自动发布商品，插件本身不额外提供搜索或生图服务。",
+        "developerName": "个人创作工作流",
+        "category": "Creativity",
+        "capabilities": ["产品事实整理", "商品套图规划", "三参考场景创作", "逐张图片质检", "图片修改与续做"],
+        "defaultPrompt": [
+          "根据我上传的产品实拍，为美国站规划一套商品图，并从第一张开始制作和质检。",
+          "检查这套商品图片的产品一致性、尺寸比例、安装逻辑和文案问题。",
+          "按当前产品事实卡和套图规划继续下一张，先检查上一张的质量。"
+        ],
+        "brandColor": "#285A52",
+        "brandColorDark": "#8ED8C6",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}
