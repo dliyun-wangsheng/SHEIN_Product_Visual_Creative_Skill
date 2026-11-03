@@ -7,7 +7,7 @@ description: A reusable workflow for creating high-conversion SHEIN product imag
 
 ## 1. 目标
 
-为 SHEIN 美国站、日本站等跨境电商商品制作一套真实、统一、有质感、适合转化的商品图片。
+为 SHEIN 美国站、欧洲跨境电商商品制作一套真实、统一、有质感、适合转化的商品图片。
 
 核心原则：
 
